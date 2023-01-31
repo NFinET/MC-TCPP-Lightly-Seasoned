@@ -35,8 +35,8 @@ liblPN\* | 2.0.1 | 2.0.2
 ### Note: This is only changes between the initial v3.0 published release and the subsequent v3.01 release. Not all configuration customizations were being properly written down before v3.01 development cus I forgot, whoops :)
 
 * Debugify
-  * Opt out of updates set to TRUE: If any bugfixes get added to this mod later, they will be disable by default so they can be reviewed before putting them into action
-  * Gameplay fixes in Multiplayer set to TRUE: Any gameplay related bugfixes that are clientside but can still work in a multiplayer setting will be activated
+  * Default to Disabled set to ON: If any bugfixes get added to this mod later, they will be disable by default so they can be reviewed before putting them into action
+  * Enable in Multiplayer set to TRUE: Any gameplay related bugfixes that are clientside but can still work in a multiplayer setting will be activated
 
 * Enchantment Descriptions
   * Enchantment Descriptions will now only show up when holding left shift while hovering the cursor over an enchanted item

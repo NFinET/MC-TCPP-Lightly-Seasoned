@@ -22,6 +22,15 @@ Debugify | Lots of bugfixes that can be optionally toggled off through the mod's
 Client Tweaks | Adds a handful of QoL tweaks that can be configured, the list of tweaks can be found on the mod page on CurseForge or within the CurseForge launcher when selecting the mod, and the settings can be found within the mod's configuration menu in the Mod Menu 
 
 
+# MODS UPDATED
+Mod | Old Version | New Version
+--- | --- | ---
+Fabric API | 0.73.0 | 0.73.2
+Inventory Profiles Next\* | 1.9.1 | 1.9.2
+liblPN\* | 2.0.1 | 2.0.2
+
+\*These updates were done in v3.0
+
 # CONFIGURATION CHANGES
 ### Note: This is only changes between the initial v3.0 published release and the subsequent v3.01 release. Not all configuration customizations were being properly written down before v3.01 development cus I forgot, whoops :)
 

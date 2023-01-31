@@ -1,5 +1,16 @@
-| # MC VERSION | # PACK VERSION |
+# CHANGELOG VERSION INFO
+| MC VERSION | PACK VERSION |
 | :---: | :---: |
-| # 1.19.3 | # v3.0 |
+| 1.19.3 | v3.0 |
+
+# MODS ADDED
+
+
+
+# MODS REMOVED
+
+
+
+# CONFIGURATION CHANGES
 
 

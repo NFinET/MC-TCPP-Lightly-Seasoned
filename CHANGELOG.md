@@ -23,6 +23,7 @@ Client Tweaks | Adds a handful of QoL tweaks that can be configured, the list of
 
 
 # CONFIGURATION CHANGES
+### Note: This is only changes between the initial v3.0 published release and the subsequent v3.01 release. Not all configuration customizations were being properly written down before v3.01 development cus I forgot, whoops :)
 
 * Debugify
   * Opt out of updates set to TRUE: If any bugfixes get added to this mod later, they will be disable by default so they can be reviewed before putting them into action
@@ -39,3 +40,5 @@ Client Tweaks | Adds a handful of QoL tweaks that can be configured, the list of
   * Show Free Inventory Slots set to TRUE: Adds a chest icon to the HUD with a number over it, this # is how many empty inventory slots you have remaining
   * Warning Mode set to NONE: Disables durability warnings from this mod, as the modpack already has them from Inventory Profiles Next
 
+* Xaero's Minimap
+  * Key Bind for "Quick Waypoint" changed from Numpad + to " = " (equals), Quick Waypoint functions similar to the Add Waypoint keybind " B ", but the waypoint it adds is specially marked as Temporary and will delete itself the next time you exit the world unless you change it to a permanent one in the Waypoints Menu (bound to " U ")

@@ -31,6 +31,11 @@ liblPN\* | 2.0.1 | 2.0.2
 
 \*These updates were done in v3.0
 
+
+# OTHER CHANGES
+* The pack from this point forward will now include the 64x version of Faithful alongside the 32x version that was included previously. Only activate one or the other, not both.
+
+
 # CONFIGURATION CHANGES
 ### Note: This is only changes between the initial v3.0 published release and the subsequent v3.01 release. Not all configuration customizations were being properly written down before v3.01 development cus I forgot, whoops :)
 

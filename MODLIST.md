@@ -73,7 +73,7 @@ MOD | DESCRIPTION | DEPENDENCIES
 Axolotl Bucket Fix | Fixes a vanilla issue, making it so Axolotl Buckets show the color of the contained Axolotl, and also whether they're a baby or adult | 
 Debugify | Conaints lots of bugfixes that can be optionally toggled off through the mod's configuration menu. Please note that not all bugfixes are strictly clientside, and if this is mod is on a server you connect to, some fixes will be "enforced" by the server as the actual code is fixed serverside | YetAnotherConfigLib
 Memory Leak Fix | Plugs an obscure but known memory leak from Vanilla |
-Nether Portal Fix | Fixes a bug from vanilla where Nether Portals can sometimes link up incorrectly when other portals are nearby, works in singleplayer, but the mod is required on the server to fix it in multiplayer | Balm
+Nether Portal Fix | Fixes a bug from vanilla where Nether Portals can sometimes link up incorrectly when other portals are nearby, works in singleplayer, but the mod is required on the server to fix it in multiplayer | Balm (Fabric Edition)
 
 
 # PURE APIS / DEPENDENCIES
@@ -83,7 +83,7 @@ Architectury API (Fabric) | Light OVerlay, Roughly Enough Items
 Balm (Fabric Edition) | Client Tweaks (Fabric Edition), Nether Portal Fix
 Bookshelf | Enchantment Descriptions
 Cloth Config API (Fabric) | Most Fabric mods that have their own config menu
-Fabric API | Almost all Fabric mods
+Fabric API | Pretty much ALL Fabric mods
 Fabric Language Kotlin | Inventory Profiles Next, Zoomify
 liblPN | Inventory Profiles Next
 owo (owo-lib) | DeathLog

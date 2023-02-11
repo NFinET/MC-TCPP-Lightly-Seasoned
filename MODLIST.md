@@ -1,11 +1,12 @@
 ### Mod list is stored here in the code section since branch versioning can make versioned copies, allowing storing of legacy mod lists for obsolete versions.  
 MC VERSION | PACK VERSION
 :---: | :---:
-1.19.3 | v3.01 
+1.19.3 | v3.1.1 
 
 # FUNCTIONAL MODS
 MOD | DESCRIPTION | DEPENDENCIES
 --- | --- | ---
+Build Guide | Adds a hotkey (modpack defualt: "N") that lets you project temporary holograms of various shapes with configurable colors, sizes, and placement |
 DeathLog | Keeps track of your deaths and takes snapshots of what you had on you when you died as well as the dimension and coordinates. Can be found in the Statistics screen when on a server | owo (owo-lib)
 Extreme Sound Muffler | Adds a button to your inventory GUI that allows you to "muffle" (block) specific sound effects if you're tired of hearing them | 
 Inventory Profiles Next | Adds inventory sorting buttons, the ability to "lock" inventory slots, allows using the scrollwheel to "push" and "pull" items to and from inventories, as well as auto-replacement of tools and items when they break / when a stack runs out in your hotbar; VERY configurable but VERY advanced | liblPN, Fabric Language Kotlin
@@ -31,7 +32,7 @@ Clear Despawn (Fabric) | Makes it so that when dropped items are close to their 
 ClickThrough | Allows you to right-click containers and interactive things through signs and item frames, so you can label chests and stuff. Crouching and left or right clicking allows you to still access the sign / item frame as usual | 
 Client Tweaks (Fabric Edition) | Adds a handful of QoL tweaks that can be configured, the list of tweaks can be found on the mod page on CurseForge or within the CurseForge launcher when selecting the mod, and the settings can be found within the mod's configuration menu in the Mod Menu | Balm (Fabric Edition)
 Controlling | Adds a searchbar to the Controls menu for searching for keybindings by name of the binding or by the key used | 
-DefaultSettings Fabric | Allows me to ship default configurations for the modpack and its updates without overwriting your personal ones every time | 
+Default Options (Fabric Edition)| Allows me to ship default configurations for the modpack and its updates without overwriting your personal ones every time | Balm (Fabric Edition) 
 Enchantment Descriptions | Adds actual descriptions to the tooltips of enchantments that give brief explanations of what they actually do, configured in this pack to display when you're holding shift | Bookshelf
 FuelInfo | Allows you to see how many more operations a Brewing Stand and Furnace can perform with their remaining fuel level by hovering your cursor over the fire icon | 
 Giselbaer's Durability Viewer | Allows you to see the durability of any item that has taken damage in its tooltip, adds HUD for durability of your worn armor and held tool, adds HUD for how many arrows you have left when wielding a bow, shows the duration remaining of active effects, and adds an icon of a chest with a # of how many empty inventory slots you have remaining | 

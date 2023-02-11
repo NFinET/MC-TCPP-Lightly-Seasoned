@@ -5,7 +5,7 @@ Repository for storing documentation for my Minecraft mod pack using Fabric, the
 #### APPROVED - LIVE
 | MC VERSION | PACK VERSION |
 | :---: | :---: |
-| 1.19.3 | v3.01 | 
+| 1.19.3 | v3.1.1 | 
 
 ## [CHANGELOG](CHANGELOG.md)
 ## [WIKI](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki)

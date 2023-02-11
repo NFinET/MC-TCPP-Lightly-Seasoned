@@ -1,11 +1,12 @@
 ### Mod list is stored here in the code section since branch versioning can make versioned copies, allowing storing of legacy mod lists for obsolete versions.  
 MC VERSION | PACK VERSION
 :---: | :---:
-1.19.3 | v3.01 
+1.19.3 | v3.1.1 
 
 # FUNCTIONAL MODS
 MOD | DESCRIPTION | DEPENDENCIES
 --- | --- | ---
+Build Guide | |
 DeathLog | Keeps track of your deaths and takes snapshots of what you had on you when you died as well as the dimension and coordinates. Can be found in the Statistics screen when on a server | owo (owo-lib)
 Extreme Sound Muffler | Adds a button to your inventory GUI that allows you to "muffle" (block) specific sound effects if you're tired of hearing them | 
 Inventory Profiles Next | Adds inventory sorting buttons, the ability to "lock" inventory slots, allows using the scrollwheel to "push" and "pull" items to and from inventories, as well as auto-replacement of tools and items when they break / when a stack runs out in your hotbar; VERY configurable but VERY advanced | liblPN, Fabric Language Kotlin

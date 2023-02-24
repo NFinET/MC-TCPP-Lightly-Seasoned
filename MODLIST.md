@@ -1,7 +1,7 @@
 ### Mod list is stored here in the code section since branch versioning can make versioned copies, allowing storing of legacy mod lists for obsolete versions.  
 MC VERSION | PACK VERSION
 :---: | :---:
-1.19.3 | v3.1.1 
+1.19.3 | v3.2.1 
 
 # FUNCTIONAL MODS
 MOD | DESCRIPTION | DEPENDENCIES
@@ -12,7 +12,9 @@ Extreme Sound Muffler | Adds a button to your inventory GUI that allows you to "
 Inventory Profiles Next | Adds inventory sorting buttons, the ability to "lock" inventory slots, allows using the scrollwheel to "push" and "pull" items to and from inventories, as well as auto-replacement of tools and items when they break / when a stack runs out in your hotbar; VERY configurable but VERY advanced | liblPN, Fabric Language Kotlin
 Jade | Adds a tooltip to the center top of the screen that tells you information about what you're currently looking at | 
 Light Overlay | Shows a configurable light-level overlay when toggled with F7 that allows you to see the light level per block, helping you figure out whether or not mobs can spawn there | Cloth Config API (Fabric), Architectury API (Fabric)
+Litematica | Extremely powerful schematic mod for rendering, importing, and exporting special schematic files NOTE: The keybinds for this mod have been altered to not conflict with other things in the pack! Check the keybinds list or the changelog for more information! | MaLiLib
 MixinTrace | Makes crashlogs better by providing .Mixin data (This helps identify if specific mods caused a crash) | 
+Notes | Adds a Notes menu to a configurable key (modpack default: "J") | 
 Roughly Enough Items | Adds a search interface to inventory GUIs that takes up the left and right of the screen and allows you to search the recipes and uses of items by hitting a configurable hotkey while hovering your mouse over an item | Cloth Config API (Fabric), Architectury API (Fabric)
 Stendhal | Adds special buttons to the chat input for unicode symbols, and also modifies the sign and book editing GUIs to have more features without breaking what they can normally do in Vanilla | 
 Xaero's Minimap | Adds a configurable minimap with a waypoint system for navigation, integrates with Xaero's World Map | 
@@ -86,6 +88,7 @@ Cloth Config API (Fabric) | Most Fabric mods that have their own config menu
 Fabric API | Pretty much ALL Fabric mods
 Fabric Language Kotlin | Inventory Profiles Next, Zoomify
 liblPN | Inventory Profiles Next
+MaLiLib | Litematica
 owo (owo-lib) | DeathLog
 YetAnotherConfigLib | Cull Less Leaves, Debugify, Zoomify
 

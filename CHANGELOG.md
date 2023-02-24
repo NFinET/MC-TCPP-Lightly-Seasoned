@@ -1,22 +1,38 @@
 # CHANGELOG VERSION INFO
 | MC VERSION | PACK VERSION |
 | :---: | :---: |
-| 1.19.3 | v3.1.1 |
+| 1.19.3 | v3.2.1 |
+
+# SPECIAL NOTES
+## Litematica has been added to the pack!
+## !!! PLEASE READ THIS SECTION IF YOU WANT TO USE OR LEARN LITEMATICA !!!
+### Litematica is a HIGHLY powerful building tool for saving, loading, and preview rendering designs to/from special schematic files. It's a highly complicated mod, and unless you think you need its features, you can safely ignore its existence entirely.
+### It's important to note that Litematica's default "main" keybind was conflicting with another mod in the pack, and thus had to be changed. The main hot key for Litematica has been changed from "M" which conflicted with the World Map, to " . " (PERIOD). If any tutorial you find tells you to use a hotkey combo using the "M" key, instead use " . " in the same combo, and it will work as expected.
+### [I highly recommend THIS tutorial for learning Litematica's basics](https://www.youtube.com/watch?v=pHa_GBLHulw)
 
 # MODS ADDED
 Mod Name | What the mod doin'?
 --- | ---
-Build Guide | Adds a configurable hotkey (set to "N" in this modpack) that allows you to project temporary building guide holograms of various shapes and modify the way they are sized and oriented.
-Default Options (Fabric Edition) | Allows me to ship default hotkey configurations to players of the pack that won't override your existing hotkeys if you edited them from the modpack defaults.
+Notes | Adds a configurable "Notes" menu with keybind, that allows you to keep notes within your game that can be per-world (save / server) or global, and pinned as a sidebar
+Litematica | Adds an extremely in-depth and powerful schematic system, allowing you to save, load, and render schematic files to assist with building. This mod is VERY complex, and I HIGHLY recommend searching out tutorials on how to use it. However, do be aware that because of conflicting keybinds, the main hot key for Litematica has been changed from "M" which conflicted with the World Map, to " . " (PERIOD). If any tutorial you find tells you to use a hotkey combo using the "M" key, instead use " . " in the same combo, and it will work as expected.
+MaLaLib | API Library, depencency of Litematica
 
-
-# MODS REMOVED
-Mod Name | Reason
---- | ---
-DefaultSettings for Fabric | Wasn't completely working properly resulting in odd behavior when attempting to change some keybinds or options. Replacing it with Default Options (Fabric Edition) which has the same purpose.
+# MODS UPDATED
+Mod Name | Prior Version | New Version
+--- | --- | --- 
+Architectury API | 7.0.66 | 7.1.70
+Chat Heads | 0.9.0 | 0.10.4
+Entity Culling Fabric | 1.5.2 | 1.6.1
+Fabric API | 0.73.2 | 0.75.1
+Fabric Language Kotlin | fabric-language-kotlin-1.9.0+kotlin.1.8.0 | fabric-language-kotlin-1.9.1+kotlin.1.8.10 
+Indium | 1.0.12 | 1.0.14 
+Iris Shaders | 1.5.1 | 1.5.2 
+oWo (owo-lib) | 0.10.1 | 0.10.2
+Roughly Enough Items | 10.0.586 | 10.0.592 
+Sodium | 0.4.8+build.22 | 0.4.9+build.23 
+Sodium Extras | 0.4.16+mc1.19.3-build.91 | 0.4.17+mc1.19.3-build.95 
+Xaero's Minimap | 22.17.1 | 23.1.0 
+Xaero's World Map  | 1.28.8 | 1.28.9 
 
 
 # CONFIGURATION CHANGES
-
-* Build Guide
-  * Build Guide menu hotkey changed to "N", the default of the mod was "B" which conflicted with Xaero's Minimap hotkey for waypoints.

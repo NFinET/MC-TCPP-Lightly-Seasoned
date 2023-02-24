@@ -15,7 +15,7 @@ Mod Name | What the mod doin'?
 --- | ---
 Notes | Adds a configurable "Notes" menu with keybind, that allows you to keep notes within your game that can be per-world (save / server) or global, and pinned as a sidebar
 Litematica | Adds an extremely in-depth and powerful schematic system, allowing you to save, load, and render schematic files to assist with building. This mod is VERY complex, and I HIGHLY recommend searching out tutorials on how to use it. However, do be aware that because of conflicting keybinds, the main hot key for Litematica has been changed from "M" which conflicted with the World Map, to " . " (PERIOD). If any tutorial you find tells you to use a hotkey combo using the "M" key, instead use " . " in the same combo, and it will work as expected.
-MaLaLib | API Library, depencency of Litematica
+MaLiLib | API Library, depencency of Litematica
 
 # MODS UPDATED
 Mod Name | Prior Version | New Version

@@ -36,3 +36,32 @@ Xaero's World Map  | 1.28.8 | 1.28.9
 
 
 # CONFIGURATION CHANGES
+* Notes (the mod)
+  * Changed Notes keybind from "N" (which conflicted with the pack's keybind for Build Guide) to "J", think of it as "[J]ournal".
+
+* Litematica
+  * Generic
+    *  "easyPlaceVanillaReach" set to "true"; (Reduces easyPlace reach from 6 to vanilla 4.5 so servers won’t reject far block placement)
+  * Hotkeys
+    *  Changed a LOT of keybinds that all used "M" as their main key, since that is already in use by Xaero's World Map. The "main key" for Litematica is now " . " (PERIOD). All default Litematica keybinds that used "M" in them have been changed to use " ." (PERIOD), but are otherwise exactly the same. Details on the keybinds can be found in the table below. Keybinds are listed in the order they appear in Litematica's "HOTKEYS" menu tab.
+  *  Additionally added 1 new binding for "executeOperation", bound to PERIOD + U; this action was by default not bound to anything.  
+
+Litematica Keybind | New Bind
+--- | --- 
+addSelectionBox | PERIOD + A
+layerModeNext | PERIOD + PAGE_UP
+layerModePrevious | PERIOD + PAGE_DOWN
+openGuiMainMenu | PERIOD
+openGuiMaterialList | PERIOD + L
+openGuiSchematicPlacements | PERIOD + P
+openGuiSchematicVerifier | PERIOD + V
+openGuiSelectionManager | PERIOD + S
+openGuiSettings | PERIOD + C
+pickBlockToggle | PERIOD + BUTTON_3 (Middle mouse)
+rerenderSchematic | F3 + PERIOD
+selectionModeCycle | LEFT_CONTROL + PERIOD
+toggleAllRendering | PERIOD + R
+toggleSchematicRendering | PERIOD + G
+toolEnabledToggle | PERIOD + T
+
+

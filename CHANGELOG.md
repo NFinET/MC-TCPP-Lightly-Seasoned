@@ -7,16 +7,18 @@
 ## Litematica has been added to the pack!
 ## !!! PLEASE READ THIS SECTION IF YOU WANT TO USE OR LEARN LITEMATICA !!!
 ### Litematica is a HIGHLY powerful building tool for saving, loading, and preview rendering designs to/from special schematic files. It's a highly complicated mod, and unless you think you need its features, you can safely ignore its existence entirely.
-### It's important to note that Litematica's default "main" keybind was conflicting with another mod in the pack, and thus had to be changed. The main hot key for Litematica has been changed from "M" which conflicted with the World Map, to " . " (PERIOD). If any tutorial you find tells you to use a hotkey combo using the "M" key, instead use " . " in the same combo, and it will work as expected.
-### [I highly recommend THIS tutorial for learning Litematica's basics](https://www.youtube.com/watch?v=pHa_GBLHulw)
-### [You can find more info about Litematica in this pack HERE](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-(v3.2.1-&-up-ONLY))
+### [Go HERE to the wiki page for Litematica in this modpack to read the keybind changes, a beginner tutorial, and other info!](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-Important-Info)
 
 # MODS ADDED
 Mod Name | What the mod doin'?
 --- | ---
-Notes | Adds a configurable "Notes" menu with keybind, that allows you to keep notes within your game that can be per-world (save / server) or global, and pinned as a sidebar
-Litematica | Adds an extremely in-depth and powerful schematic system, allowing you to save, load, and render schematic files to assist with building. This mod is VERY complex, and I HIGHLY recommend searching out tutorials on how to use it. However, do be aware that because of conflicting keybinds, the main hot key for Litematica has been changed from "M" which conflicted with the World Map, to " . " (PERIOD). If any tutorial you find tells you to use a hotkey combo using the "M" key, instead use " . " in the same combo, and it will work as expected.
+Capes [Fabric/Forge] | Allows you to see and use capes from Optifine, LabyMod, and the MinecraftCapes mod; Only other people using this mod can see capes you add to yourself from it
+LambDynamicLights | Allows you to see / use dynamic lights when holding items that create light. Important to note, this light is only rendered and not "real", and thus doesn't count for lighting-based calculation mechanics, like spawning of mobs
+Litematica | Adds an extremely in-depth and powerful schematic system, allowing you to save, load, and render schematic files to assist with building. This mod is VERY complex, and some changes were made to its keybinds. If you want to use this mod AT ALL, please see the wiki page dedicated to it [>>HERE<<](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-Important-Info)
 MaLiLib | API Library, depencency of Litematica
+Model Gap Fix | Fixes a vanilla issue with the model renderer that causes weird gaps / seams in some 3D models and in held items
+Notes | Adds a configurable "Notes" menu with keybind, that allows you to keep notes within your game that can be per-world (save / server) or global, and pinned as a sidebar. For this modpack, the keybind is "J", as the mod's default had conflicts with other mods
+Puzzle | Adds better GUI & configuration to graphics options
 
 # MODS UPDATED
 Mod Name | Prior Version | New Version

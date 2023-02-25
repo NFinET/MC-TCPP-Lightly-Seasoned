@@ -2,7 +2,7 @@
 Repository for storing documentation for my Minecraft mod pack using Fabric, the Thin Crust Pizza Pack - Lightly Seasoned edition, available on CurseForge through the link above.
 
 ## THIS VERSION'S STATUS
-### 2/23/2023 - PREPARING FOR SHIPPING
+### 2/25/2023 - PREPARING FOR SHIPPING
 | MC VERSION | PACK VERSION |
 | :---: | :---: |
 | 1.19.3 | v3.2.1 | 

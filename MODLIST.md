@@ -1,18 +1,21 @@
 ### Mod list is stored here in the code section since branch versioning can make versioned copies, allowing storing of legacy mod lists for obsolete versions.  
 MC VERSION | PACK VERSION
 :---: | :---:
-1.19.3 | v3.1.1 
+1.19.3 | v3.2.1 
 
 # FUNCTIONAL MODS
 MOD | DESCRIPTION | DEPENDENCIES
 --- | --- | ---
 Build Guide | Adds a hotkey (modpack defualt: "N") that lets you project temporary holograms of various shapes with configurable colors, sizes, and placement |
+Capes [Fabric/Forge] | Allows you to have capes from other mods, like [MinecraftCapes.net](MinecraftCapes.net) | Fabric Language Kotlin
 DeathLog | Keeps track of your deaths and takes snapshots of what you had on you when you died as well as the dimension and coordinates. Can be found in the Statistics screen when on a server | owo (owo-lib)
 Extreme Sound Muffler | Adds a button to your inventory GUI that allows you to "muffle" (block) specific sound effects if you're tired of hearing them | 
 Inventory Profiles Next | Adds inventory sorting buttons, the ability to "lock" inventory slots, allows using the scrollwheel to "push" and "pull" items to and from inventories, as well as auto-replacement of tools and items when they break / when a stack runs out in your hotbar; VERY configurable but VERY advanced | liblPN, Fabric Language Kotlin
 Jade | Adds a tooltip to the center top of the screen that tells you information about what you're currently looking at | 
 Light Overlay | Shows a configurable light-level overlay when toggled with F7 that allows you to see the light level per block, helping you figure out whether or not mobs can spawn there | Cloth Config API (Fabric), Architectury API (Fabric)
+Litematica | Extremely powerful schematic mod for rendering, importing, and exporting special schematic files NOTE: The keybinds for this mod have been altered to not conflict with other things in the pack! [Check the wiki page for more info!](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-Important-Info) | MaLiLib
 MixinTrace | Makes crashlogs better by providing .Mixin data (This helps identify if specific mods caused a crash) | 
+Notes | Adds a Notes menu to a configurable key (modpack default: "J") | 
 Roughly Enough Items | Adds a search interface to inventory GUIs that takes up the left and right of the screen and allows you to search the recipes and uses of items by hitting a configurable hotkey while hovering your mouse over an item | Cloth Config API (Fabric), Architectury API (Fabric)
 Stendhal | Adds special buttons to the chat input for unicode symbols, and also modifies the sign and book editing GUIs to have more features without breaking what they can normally do in Vanilla | 
 Xaero's Minimap | Adds a configurable minimap with a waypoint system for navigation, integrates with Xaero's World Map | 
@@ -36,9 +39,12 @@ Default Options (Fabric Edition)| Allows me to ship default configurations for t
 Enchantment Descriptions | Adds actual descriptions to the tooltips of enchantments that give brief explanations of what they actually do, configured in this pack to display when you're holding shift | Bookshelf
 FuelInfo | Allows you to see how many more operations a Brewing Stand and Furnace can perform with their remaining fuel level by hovering your cursor over the fire icon | 
 Giselbaer's Durability Viewer | Allows you to see the durability of any item that has taken damage in its tooltip, adds HUD for durability of your worn armor and held tool, adds HUD for how many arrows you have left when wielding a bow, shows the duration remaining of active effects, and adds an icon of a chest with a # of how many empty inventory slots you have remaining | 
+MidnightControls | Adds full configurable (and optional) controller support | MidnightLib
 Mod Menu | Adds a "Mods" button to the in-game menus to allow you to view what mods you have installed. This menu can give you some blurb info about each mod, and allow access to mod-specific config menus (if they have them) | 
 Mouse Tweaks | Adds some extra controls to the mouse when interacting with inventories | 
+Neat (Fabric/Quilt) | Adds entity panes above the heads of most living entities in the game (exceptions made for things like fish) | 
 No Night Vision Flickering | Replaces the default flickering / blinking when the Night Vision effect is wearing off with a gentle fade to avoid hurting your eyes | 
+Puzzle | Adds a clustered options menu for some other graphics mods, and adds some additional features | MidnightLib
 ToolTipFix | Fixes a longstanding GUI bug where Tooltips could get too long and extend off of the screen by allowing them to wrap the text upon hitting the edge | 
 
 
@@ -62,6 +68,7 @@ MOD | DESCRIPTION | DEPENDENCIES
 --- | --- | ---
 Indium | Addon for Sodium to fix issues with mods that would normally be incompatible with it | Sodium
 Iris Shaders | Shader mod that allows you apply Shader Packs, check the wiki on the github for a guide on finding and adding shader packs | Sodium
+LambDynamicLights | Allows held items to project light if they are items that provide light when placed, works with or without shaders; light is only visual and has no effects on things like mob spawning | 
 Reese's Sodium Options | Overhauls the default Sodium menu to be cleaner & nicer to use | Sodium
 Sodium | Full replacement overhaul for Minecraft's rendering engine that greatly optimizes it, fixes issues from vanilla, and allows for more settings to be changed | 
 Sodium Extras | Adds some bonus settings to Sodium in a new "Extras" tab in the Video Options menu from Sodium | Sodium
@@ -73,6 +80,7 @@ MOD | DESCRIPTION | DEPENDENCIES
 Axolotl Bucket Fix | Fixes a vanilla issue, making it so Axolotl Buckets show the color of the contained Axolotl, and also whether they're a baby or adult | 
 Debugify | Contains lots of bugfixes that can be optionally toggled off through the mod's configuration menu. Please note that not all bugfixes are strictly clientside, and if this is mod is on a server you connect to, some fixes will be "enforced" by the server as the actual code is fixed serverside | YetAnotherConfigLib
 Memory Leak Fix | Plugs an obscure but known memory leak from Vanilla |
+Model Gap Fix | Fixes a vanilla issue in the rendering of some 3D models and also held items that caused them to have ugly seams & holes |
 Nether Portal Fix | Fixes a bug from vanilla where Nether Portals can sometimes link up incorrectly when other portals are nearby, works in singleplayer, but the mod is required on the server to fix it in multiplayer | Balm (Fabric Edition)
 
 
@@ -84,8 +92,10 @@ Balm (Fabric Edition) | Client Tweaks (Fabric Edition), Nether Portal Fix
 Bookshelf | Enchantment Descriptions
 Cloth Config API (Fabric) | Most Fabric mods that have their own config menu
 Fabric API | Pretty much ALL Fabric mods
-Fabric Language Kotlin | Inventory Profiles Next, Zoomify
+Fabric Language Kotlin | Capes, Inventory Profiles Next, Zoomify
 liblPN | Inventory Profiles Next
+MaLiLib | Litematica
+MidnightLib | MidnightControls, Puzzle
 owo (owo-lib) | DeathLog
 YetAnotherConfigLib | Cull Less Leaves, Debugify, Zoomify
 

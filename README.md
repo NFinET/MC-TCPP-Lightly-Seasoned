@@ -3,6 +3,7 @@ Repository for storing documentation for my Minecraft mod pack using Fabric, the
 
 ## THIS VERSION'S STATUS
 ### 2/25/2023 - 4:20PM EST (nice) - Submitted, awaiting processing & approval
+| Minecraft Version | Modpack Version |
 | :---: | :---: |
 | 1.19.3 | v3.2.1 | 
 

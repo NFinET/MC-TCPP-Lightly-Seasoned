@@ -12,11 +12,14 @@
 # MODS ADDED
 Mod Name | What the mod doin'?
 --- | ---
-Capes [Fabric/Forge] | Allows you to see and use capes from Optifine, LabyMod, and the MinecraftCapes mod; Only other people using this mod can see capes you add to yourself from it
-LambDynamicLights | Allows you to see / use dynamic lights when holding items that create light. Important to note, this light is only rendered and not "real", and thus doesn't count for lighting-based calculation mechanics, like spawning of mobs
+Capes [Fabric/Forge] | Allows you to see and use capes from a handful of other mods that have their own capes such as Optifine, LabyMod, MinecraftCapes.net, Wynntils, Cosmetica, and Cloaks+. Only other people using this mod can see capes you add to yourself from it. If you want to make your own custom cape and don't know any of the listed mods, I recommend using [MinecraftCapes.net](https://minecraftcapes.net/) by linking your Microsoft account or making a throwaway account
+LambDynamicLights | Allows you to see / use dynamic lights when holding items that create light, and works with or without shaders! Important to note, this light is only rendered and not "real", and thus doesn't count for lighting-based calculation mechanics, like spawning of mobs
 Litematica | Adds an extremely in-depth and powerful schematic system, allowing you to save, load, and render schematic files to assist with building. This mod is VERY complex, and some changes were made to its keybinds. If you want to use this mod AT ALL, please see the wiki page dedicated to it [>>HERE<<](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-Important-Info)
 MaLiLib | API Library, depencency of Litematica
+MidnightControls | Adds highly configurable and optional controller support
+MidnightLib | API / Dependency, required for both MidnightControls and Puzzle
 Model Gap Fix | Fixes a vanilla issue with the model renderer that causes weird gaps / seams in some 3D models and in held items
+Neat (Fabric/Quilt) | Adds configurable floating unit panes above entities
 Notes | Adds a configurable "Notes" menu with keybind, that allows you to keep notes within your game that can be per-world (save / server) or global, and pinned as a sidebar. For this modpack, the keybind is "J", as the mod's default had conflicts with other mods
 Puzzle | Adds better GUI & configuration to graphics options
 
@@ -66,6 +69,19 @@ rerenderSchematic | F3 + PERIOD
 selectionModeCycle | LEFT_CONTROL + PERIOD
 toggleAllRendering | PERIOD + R
 toggleSchematicRendering | PERIOD + G
-toolEnabledToggle | PERIOD + T
-
-
+toolEnabledToggle | PERIOD + T  
+  
+* Neat (Fabric/Quilt)
+  * Most of the changes for this mod were done to attempt to make it a bit less intrusive since it can make places with many mobs (such as farms) very chaotic with its default settings
+  * "maxDistance" set to 16 (Default: 24); maximum distance that Neat entity panes are visible from; 
+  * "heightAbove" set to 0.66 (Default: 0); height above the entity that the nameplate renders in blocks, the default rendered them partially inside mob's heads for some reason? This height puts it above them, and gives clearance for normal vanilla nametag plates
+  * "backgroundPadding" set to 1 (Default: 2)
+  * "backgroundHeight" set to 5 (Default: 6)
+  * "barHeight" set to 3 (Default: 4)
+  * "plateSize" set to 10 (Default: 25); size of the entity panes themselves, default felt a bit too large
+  * "hpTextHeight" set to 12 (Default: 14)  
+  
+* Puzzle
+  * Miscellaneous Settings
+    * "Check for Updates" set to "No"
+    * "Show Puzzle Version Info" set to "No"

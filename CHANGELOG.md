@@ -5,9 +5,13 @@
 
 # SPECIAL NOTES
 ## Litematica has been added to the pack!
-## !!! PLEASE READ THIS SECTION IF YOU WANT TO USE OR LEARN LITEMATICA !!!
-### Litematica is a HIGHLY powerful building tool for saving, loading, and preview rendering designs to/from special schematic files. It's a highly complicated mod, and unless you think you need its features, you can safely ignore its existence entirely.
-### [Go HERE to the wiki page for Litematica in this modpack to read the keybind changes, a beginner tutorial, and other info!](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-Important-Info)
+* ## !!! PLEASE READ THIS SECTION IF YOU WANT TO USE OR LEARN LITEMATICA !!!
+  * ### Litematica is a HIGHLY powerful building tool for saving, loading, and preview rendering designs to/from special schematic files. It's a highly complicated mod, and unless you think you need its features, you can safely ignore its existence entirely.
+  * ### [Go HERE to the wiki page for Litematica in this modpack to read the keybind changes, a beginner tutorial, and other info!](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-Important-Info)  
+
+## The shader pack [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders) has been added, and will be shipped with the pack by default from now on. It is a shader pack based on the BSL Shaders shader pack and is highly recommended.
+
+***
 
 # MODS ADDED
 Mod Name | What the mod doin'?
@@ -22,6 +26,8 @@ Model Gap Fix | Fixes a vanilla issue with the model renderer that causes weird 
 Neat (Fabric/Quilt) | Adds configurable floating unit panes above entities
 Notes | Adds a configurable "Notes" menu with keybind, that allows you to keep notes within your game that can be per-world (save / server) or global, and pinned as a sidebar. For this modpack, the keybind is "J", as the mod's default had conflicts with other mods
 Puzzle | Adds better GUI & configuration to graphics options
+
+***
 
 # MODS UPDATED
 Mod Name | Prior Version | New Version
@@ -40,6 +46,7 @@ Sodium Extras | 0.4.16+mc1.19.3-build.91 | 0.4.17+mc1.19.3-build.95
 Xaero's Minimap | 22.17.1 | 23.1.0 
 Xaero's World Map  | 1.28.8 | 1.28.9 
 
+***
 
 # CONFIGURATION CHANGES
 * Notes (the mod)

@@ -52,6 +52,9 @@ Xaero's World Map  | 1.28.8 | 1.28.9
 * Notes (the mod)
   * Changed Notes keybind from "N" (which conflicted with the pack's keybind for Build Guide) to "J", think of it as "[J]ournal".
 
+* LambDynamicLights
+  * Dynamic Lights set to "OFF" by default (Default: Fancy); this was done so that people who want this feature can simply turn it on, while people who don't want it don't have to worry about it. It can be turned back on by going to Options -> Hitting the new Puzzle Button in the top left -> Graphics Settings -> LambDynamicLights section -> Dynamic Lights setting. 
+
 * Litematica
   * Generic
     *  "easyPlaceVanillaReach" set to "true"; (Reduces easyPlace reach from 6 to vanilla 4.5 so servers won’t reject far block placement)

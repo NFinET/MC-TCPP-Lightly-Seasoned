@@ -9,7 +9,7 @@
 ### Litematica is a HIGHLY powerful building tool for saving, loading, and preview rendering designs to/from special schematic files. It's a highly complicated mod, and unless you think you need its features, you can safely ignore its existence entirely.
 ### It's important to note that Litematica's default "main" keybind was conflicting with another mod in the pack, and thus had to be changed. The main hot key for Litematica has been changed from "M" which conflicted with the World Map, to " . " (PERIOD). If any tutorial you find tells you to use a hotkey combo using the "M" key, instead use " . " in the same combo, and it will work as expected.
 ### [I highly recommend THIS tutorial for learning Litematica's basics](https://www.youtube.com/watch?v=pHa_GBLHulw)
-### [You can find more info about Litematica in this pack HERE](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-(v3.2.1--ONLY))
+### [You can find more info about Litematica in this pack HERE](https://github.com/NFinET/MC-TCPP-Lightly-Seasoned/wiki/Litematica-(v3.2.1-&-up-ONLY))
 
 # MODS ADDED
 Mod Name | What the mod doin'?
